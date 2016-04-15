@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-us" xml:lang="en-us">
+<head>
+    <title>SP14CSC226201312-20171: Primary Text Offline Version: How to Think Like a Computer Scientist</title>
+    <link rel="shortcut icon" href="http://moodle2.berea.edu/theme/image.php/moodlebook/theme/1384888084/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, SP14CSC226201312-20171: Primary Text Offline Version: How to Think Like a Computer Scientist" />
+<link rel="stylesheet" type="text/css" href="http://moodle2.berea.edu/theme/yui_combo.php?3.7.3/build/cssreset/reset-min.css&amp;3.7.3/build/cssfonts/fonts-min.css&amp;3.7.3/build/cssgrids/grids-min.css&amp;3.7.3/build/cssbase/base-min.css" /><script type="text/javascript" src="http://moodle2.berea.edu/theme/yui_combo.php?3.7.3/build/simpleyui/simpleyui-min.js&amp;3.7.3/build/loader/loader-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://moodle2.berea.edu/theme/styles.php/moodlebook/1384888084/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle2.berea.edu","sesskey":"FnsAQ2J2Ld","loadingicon":"http:\/\/moodle2.berea.edu\/theme\/image.php\/moodlebook\/core\/1384888084\/i\/loading_small","themerev":"1384888084","slasharguments":1,"theme":"moodlebook","jsrev":"1384888084","svgicons":true};
+var moodleConfigFn = function(me) {var p = me.path, b = me.name.replace(/^moodle-/,'').split('-', 3), n = b.pop();if (/(skin|core)/.test(n)) {n = b.pop();me.type = 'css';};me.path = b.join('-')+'/'+n+'/'+n+'.'+me.type;};
+var galleryConfigFn = function(me) {var p = me.path,v=M.yui.galleryversion,f;if(/-(skin|core)/.test(me.name)) {me.type = 'css';p = p.replace(/-(skin|core)/, '').replace(/\.js/, '.css').split('/'), f = p.pop().replace(/(\-(min|debug))/, '');if (/-skin/.test(me.name)) {p.splice(p.length,0,v,'assets','skins','sam', f);} else {p.splice(p.length,0,v,'assets', f);};} else {p = p.split('/'), f = p.pop();p.splice(p.length,0,v, f);};me.path = p.join('/');};
+var yui2in3ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin');}};
+YUI_config = {"base":"http:\/\/moodle2.berea.edu\/lib\/yuilib\/3.7.3\/build\/","comboBase":"http:\/\/moodle2.berea.edu\/theme\/yui_combo.php?","combine":true,"filter":"","insertBefore":"firstthemesheet","modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle2.berea.edu\/lib\/javascript.php\/1384888084\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_dock":{"name":"core_dock","fullpath":"http:\/\/moodle2.berea.edu\/lib\/javascript.php\/1384888084\/blocks\/dock.js","requires":["base","node","event-custom","event-mouseenter","event-resize"]}},"groups":{"moodle":{"name":"moodle","base":"http:\/\/moodle2.berea.edu\/theme\/yui_combo.php?moodle\/1384888084\/","comboBase":"http:\/\/moodle2.berea.edu\/theme\/yui_combo.php?","combine":true,"filter":"","ext":false,"root":"moodle\/1384888084\/","patterns":{"moodle-":{"group":"moodle","configFn":moodleConfigFn}}},"local":{"name":"gallery","base":"http:\/\/moodle2.berea.edu\/lib\/yui\/gallery\/","comboBase":"http:\/\/moodle2.berea.edu\/theme\/yui_combo.php?","combine":true,"filter":"","ext":false,"root":"gallery\/","patterns":{"gallery-":{"group":"gallery","configFn":galleryConfigFn}}},"yui2":{"base":"http:\/\/moodle2.berea.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle2.berea.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui2in3ConfigFn}}}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle2.berea.edu/lib/javascript.php/1384888084/lib/javascript-static.js"></script>
+<script type="text/javascript" src="http://moodle2.berea.edu/theme/javascript.php/moodlebook/1384888084/head"></script>
+
+<style>
+#page-my-index div[role="main"] .block { width: 500px; }
+</style><script type="text/javascript">
+	YUI().use('node', function(Y) {
+		window.thisisy = Y;
+	Y.one(window).on('scroll', function(e) {
+		var node = Y.one('#back-to-top');
+
+		if (Y.one('window').get('docScrollY') > Y.one('#page-content-wrapper').getY()) {
+			node.setStyle('display', 'block');
+		} else {
+			node.setStyle('display', 'none');
+		}
+
+		});
+	});
+</script>
+</head>
+
+<body id="page-mod-resource-view" class="format-topics  path-mod path-mod-resource safari dir-ltr lang-en_us yui-skin-sam yui3-skin-sam moodle2-berea-edu pagelayout-incourse course-2699 context-142023 cmid-106197 category-24 side-pre-only">
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    <div id="menubar">
+    	<div id="menushell">
+					<a href="http://moodle2.berea.edu"><div id="nologo"></div></a>
+		    	<ul id="awesomeHomeMenu" class="dropdown  dropdown-horizontal"><li><span id="awesomeNavMenu"><img alt="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/theme/1384888084/user_silhouette" /></span><ul><li><a href="http://moodle2.berea.edu/my/"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My home</a></li>
+<li><span title="Moodle2.Berea.edu">Site pages</span><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=0"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Site blogs</a></li>
+<li><a href="http://moodle2.berea.edu/tag/search.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Tags</a></li>
+<li><a href="http://moodle2.berea.edu/calendar/view.php?view=month"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Calendar</a></li>
+<li><a title="Forum" href="http://moodle2.berea.edu/mod/forum/view.php?id=95448"><img alt="Forum" class="smallicon navicon" title="Forum" src="http://moodle2.berea.edu/theme/image.php/moodlebook/forum/1384888084/icon" />Site news</a></li></ul></li>
+<li><span>My profile</span><ul><li><a href="http://moodle2.berea.edu/user/profile.php?id=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View profile</a></li>
+<li><span>Forum posts</span><ul><li><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Posts</a></li>
+<li><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Discussions</a></li></ul></li>
+<li><span>Blogs</span><ul><li><a href="http://moodle2.berea.edu/blog/index.php?userid=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View all of my entries</a></li>
+<li><a href="http://moodle2.berea.edu/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Add a new entry</a></li></ul></li>
+<li><a href="http://moodle2.berea.edu/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Messages</a></li>
+<li><a href="http://moodle2.berea.edu/user/files.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My private files</a></li></ul></li>
+<li><span>Current course</span><ul><li class="clickable-with-children"><a title="Spring 14 CSC 226 - Software Design &amp; Implement" href="http://moodle2.berea.edu/course/view.php?id=2699">SP14CSC226201312-20171</a><ul><li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/index.php?id=2699">Participants</a><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></li>
+<li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/view.php?id=4929&amp;course=2699">John Hellrung</a><ul><li><a href="http://moodle2.berea.edu/user/view.php?id=4929&amp;course=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View profile</a></li>
+<li><span>Forum posts</span><ul><li><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;course=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Posts</a></li>
+<li><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;course=2699&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Discussions</a></li></ul></li>
+<li><span>Blogs</span><ul><li><a href="http://moodle2.berea.edu/blog/index.php?userid=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View all of my entries</a></li>
+<li><a href="http://moodle2.berea.edu/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Add a new entry</a></li></ul></li>
+<li><a href="http://moodle2.berea.edu/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Messages</a></li>
+<li><a href="http://moodle2.berea.edu/user/files.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My private files</a></li></ul></li></ul></li>
+<li><span>General</span><ul><li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102665"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Course Website: CSC 226 Assignments and Labs</a></li>
+<li><a href="http://moodle2.berea.edu/mod/url/view.php?id=105260" id="action_link52f1e759383386">CSC226 Syllabus</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=106187"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Participation</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=106431"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Absences</a></li></ul></li>
+<li><span>Assignments and Labs</span><ul><li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=105263"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A0</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=105265"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/document-24" />yourusername-A0-info.docx</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=105266"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/text-24" />yourusername-A0.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106203"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A1</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106216"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/unknown-24" />yourusername-a1.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106204"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />P1</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106405"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A2</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106755"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A3</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106756"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/text-24" />turtle-first.py</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106757"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/text-24" />turtle-thinkcspy.py</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106789"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/unknown-24" />yourusername-A03.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106754"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />P2</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106968"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A4</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=107629"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A5</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=107669"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/text-24" />turtle-cityscape.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=107631"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />P3</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=107925"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A6</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=107926"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/unknown-24" />p-making-change.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=108129"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />L1</a></li>
+<li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=108130"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/text-24" />turtle.interactive.py</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=108141"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />A7</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=108735"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />P4</a></li></ul></li>
+<li><span>Quizzes</span><ul><li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=105264"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q0</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=106196"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q1</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=106406"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q2</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=106969"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q3</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=107698"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q4</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=107700"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q5</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=108583"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q6</a></li>
+<li><a title="Assignment (2.2)" href="http://moodle2.berea.edu/mod/assignment/view.php?id=108736"><img alt="Assignment (2.2)" class="smallicon navicon" title="Assignment (2.2)" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assignment/1384888084/icon" />Q7</a></li></ul></li>
+<li><span>Exams</span><ul><li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106184"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />Exam E1</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106185"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />Exam E2</a></li>
+<li><a title="Assignment" href="http://moodle2.berea.edu/mod/assign/view.php?id=106186"><img alt="Assignment" class="smallicon navicon" title="Assignment" src="http://moodle2.berea.edu/theme/image.php/moodlebook/assign/1384888084/icon" />Exam E3</a></li></ul></li>
+<li><span>Resources</span><ul><li><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106197"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/pdf-24" />...ne Version: How to Think Like a Computer Scientist</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102671" id="action_link52f1e759383387"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Interactive Textbook: How to Think Like a Computer Scientist</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102687" id="action_link52f1e759383388"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Primary Non-Interactive Text: How to Think Like a Computer Scientist, 3rd ed</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102673" id="action_link52f1e759383389"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Installer: Python language v2.7.6</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102672" id="action_link52f1e7593833810"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Installer: PyScripter IDE</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102688" id="action_link52f1e7593833811"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Support Textbook: CS for All</a></li>
+<li><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=105262"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />...to Think Like a Computer Scientist (early version)</a></li>
+<li><a title="Forum" href="http://moodle2.berea.edu/mod/forum/view.php?id=102666"><img alt="Forum" class="smallicon navicon" title="Forum" src="http://moodle2.berea.edu/theme/image.php/moodlebook/forum/1384888084/icon" />News forum</a></li></ul></li></ul></li></ul></li>
+<li class="clickable-with-children"><a href="http://moodle2.berea.edu/my/">My courses</a><ul><li class="clickable-with-children"><a title="Spring 14 CSC 186 MJ - Building Better Apps" href="http://moodle2.berea.edu/course/view.php?id=2697">SP14CSC186MJ201312-20169</a><ul><li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/index.php?id=2697">Participants</a><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=2697"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></li></ul></li></ul></li>
+<li class="clickable-with-children"><a title="Spring 14 CSC/BUS 114 - Business App &amp; Prog" href="http://moodle2.berea.edu/course/view.php?id=2696">SP14CSC114</a><ul><li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/index.php?id=2696">Participants</a><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=2696"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></li></ul></li></ul></li>
+<li class="clickable-with-children"><a title="Spring 14 AFR 138 - Black Music Ensemble(MUS 135)" href="http://moodle2.berea.edu/course/view.php?id=2578">SP14AFR138201312-20018</a><ul><li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/index.php?id=2578">Participants</a><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=2578"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></li></ul></li></ul></li>
+<li class="clickable-with-children"><a title="Spring 14 GSTR 110 A - Writing Sem I:Critical Think" href="http://moodle2.berea.edu/course/view.php?id=2568">SP14GSTR110A201312-20389</a><ul><li class="clickable-with-children"><a href="http://moodle2.berea.edu/user/index.php?id=2568">Participants</a><ul><li><a href="http://moodle2.berea.edu/blog/index.php?courseid=2568"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></li></ul></li></ul></li></ul></li></ul></li></ul>    	<div id="menucenter">
+        <ul class="dropdown  dropdown-horizontal"><li><span>Course administration</span><ul><li><a href="http://moodle2.berea.edu/grade/report/index.php?id=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/grades" />Grades</a></li></ul></li>
+<li><span>My profile settings</span><ul><li><a href="http://moodle2.berea.edu/user/edit.php?id=4929&amp;course=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Edit profile</a></li>
+<li><a href="http://moodle2.berea.edu/message/edit.php?id=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Messaging</a></li>
+<li><span>Blogs</span><ul><li><a href="http://moodle2.berea.edu/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Preferences</a></li>
+<li><a href="http://moodle2.berea.edu/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />External blogs</a></li>
+<li><a href="http://moodle2.berea.edu/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Register an external blog</a></li></ul></li></ul></li></ul>    	</div>
+    			
+		<div id="profiletop">
+			<a href="http://moodle2.berea.edu/user/view.php?id=4929&amp;course=2699"><img src="http://moodle2.berea.edu/user/pix.php?file=/4929/f1.jpg" id="profilepic" title="John Hellrung" alt="John Hellrung" /></a><div class="logininfo"><a href="http://moodle2.berea.edu/user/profile.php?id=4929">John Hellrung</a> <a href="http://moodle2.berea.edu/login/logout.php?sesskey=FnsAQ2J2Ld"><img alt="Logout" src="http://moodle2.berea.edu/theme/image.php/moodlebook/theme/1384888084/logout_icon" /></a></div>		</div>
+    	</div>
+		
+    </div>
+
+<div id="page">
+
+
+    <div id="page-header" class="clearfix">
+		<div id="page-header-wrapper">
+
+		        <h1 class="headermain">Spring 14 CSC 226 - Software Design &amp; Implement</h1>
+        <div class="headermenu">		</div>
+		
+		
+			    </div>
+    </div>
+    
+    	<div class="navbar clearfix">
+		<div class="breadcrumb"><span class="accesshide">Page path</span><ul role="navigation"><li><a href="http://moodle2.berea.edu/">Home</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <a href="http://moodle2.berea.edu/my/">My courses</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <a href="http://moodle2.berea.edu/course/category.php?id=22">Academic Year 2013-2014</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <a href="http://moodle2.berea.edu/course/category.php?id=24">Spring 2014</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <a title="Spring 14 CSC 226 - Software Design &amp; Implement" href="http://moodle2.berea.edu/course/view.php?id=2699">SP14CSC226201312-20171</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <span>Resources</span></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&nbsp;</span> <a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106197">...ne Version: How to Think Like a Computer Scientist</a></li></ul></div>
+		<div class="navbutton"> </div>
+	</div>
+	
+<!-- END OF HEADER -->
+<div id="page-content-wrapper">
+	<div id="page-content">
+        <div id="region-main-box">
+            <div id="region-post-box">
+
+                <div id="region-main-wrap">
+                    <div id="region-main">
+                        <div class="region-content">
+                                                        <div role="main"><span id="maincontent"></span><div class="resourcecontent resourcepdf">
+  <object id="resourceobject" data="http://moodle2.berea.edu/pluginfile.php/142023/mod_resource/content/3/thinkcspy3.pdf" type="application/pdf" width="800" height="600">
+    <param name="src" value="http://moodle2.berea.edu/pluginfile.php/142023/mod_resource/content/3/thinkcspy3.pdf" />
+    Click <a href="http://moodle2.berea.edu/pluginfile.php/142023/mod_resource/content/3/thinkcspy3.pdf" >thinkcspy3.pdf</a> link to view the file.
+  </object>
+</div><div id="resourceintro" class="box mod_introbox"><div class="no-overflow"><p>For offline reading</p></div></div></div>                                                    </div>
+                    </div>
+                </div>
+
+                                <div id="region-pre" class="block-region">
+                    <div class="region-content">
+                            <a href="#sb-1" class="skip-block">Skip Navigation</a><div id="inst20977" class="block_navigation  block" role="navigation" aria-labelledby="instance-20977-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-20977-header">Navigation</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand navigation_node"><a href="http://moodle2.berea.edu/">Home</a></p><ul><li class="type_setting depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/my/"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My home</a></p></li>
+<li class="type_course depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span title="Moodle2.Berea.edu" tabindex="0">Site pages</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/index.php?courseid=0"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Site blogs</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/tag/search.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Tags</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/calendar/view.php?view=month"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Calendar</a></p></li>
+<li class="type_activity depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a title="Forum" href="http://moodle2.berea.edu/mod/forum/view.php?id=95448"><img alt="Forum" class="smallicon navicon" title="Forum" src="http://moodle2.berea.edu/theme/image.php/moodlebook/forum/1384888084/icon" />Site news</a></p></li></ul></li>
+<li class="type_user depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">My profile</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/user/profile.php?id=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View profile</a></p></li>
+<li class="type_custom depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Forum posts</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Posts</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Discussions</a></p></li></ul></li>
+<li class="type_unknown depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/index.php?userid=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View all of my entries</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Add a new entry</a></p></li></ul></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Messages</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/user/files.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My private files</a></p></li></ul></li>
+<li class="type_system depth_2 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Current course</span></p><ul><li class="type_course depth_3 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand"><a title="Spring 14 CSC 226 - Software Design &amp; Implement" href="http://moodle2.berea.edu/course/view.php?id=2699">SP14CSC226201312-20171</a></p><ul><li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://moodle2.berea.edu/user/index.php?id=2699">Participants</a></p><ul><li class="type_custom depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/index.php?courseid=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Course blogs</a></p></li>
+<li class="type_user depth_5 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://moodle2.berea.edu/user/view.php?id=4929&amp;course=2699">John Hellrung</a></p><ul><li class="type_custom depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/user/view.php?id=4929&amp;course=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View profile</a></p></li>
+<li class="type_custom depth_6 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Forum posts</span></p><ul><li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;course=2699"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Posts</a></p></li>
+<li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/mod/forum/user.php?id=4929&amp;course=2699&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Discussions</a></p></li></ul></li>
+<li class="type_unknown depth_6 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/index.php?userid=4929"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />View all of my entries</a></p></li>
+<li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Add a new entry</a></p></li></ul></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />Messages</a></p></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://moodle2.berea.edu/user/files.php"><img alt="" class="smallicon navicon" title="" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/i/navigationitem" />My private files</a></p></li></ul></li></ul></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_1"><span tabindex="0">General</span></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_2"><span tabindex="0">Assignments and Labs</span></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_3"><span tabindex="0">Quizzes</span></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_4"><span tabindex="0">Exams</span></p></li>
+<li class="type_structure depth_4 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Resources</span></p><ul><li class="type_activity depth_5 item_with_icon current_branch"><p class="tree_item leaf hasicon active_tree_node"><a title="File" href="http://moodle2.berea.edu/mod/resource/view.php?id=106197"><img alt="File" class="smallicon navicon" title="File" src="http://moodle2.berea.edu/theme/image.php/moodlebook/core/1384888084/f/pdf-24" />...ne Version: How to Think Like a Computer Scientist</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102671" id="action_link52f1e759383381"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Interactive Textbook: How to Think Like a Computer Scientist</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102687" id="action_link52f1e759383382"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Primary Non-Interactive Text: How to Think Like a Computer Scientist, 3rd ed</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102673" id="action_link52f1e759383383"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Installer: Python language v2.7.6</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102672" id="action_link52f1e759383384"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Installer: PyScripter IDE</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=102688" id="action_link52f1e759383385"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />Support Textbook: CS for All</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://moodle2.berea.edu/mod/url/view.php?id=105262"><img alt="URL" class="smallicon navicon" title="URL" src="http://moodle2.berea.edu/theme/image.php/moodlebook/url/1384888084/icon" />...to Think Like a Computer Scientist (early version)</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Forum" href="http://moodle2.berea.edu/mod/forum/view.php?id=102666"><img alt="Forum" class="smallicon navicon" title="Forum" src="http://moodle2.berea.edu/theme/image.php/moodlebook/forum/1384888084/icon" />News forum</a></p></li></ul></li></ul></li></ul></li>
+<li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_5"><a href="http://moodle2.berea.edu/my/">My courses</a></p></li></ul></li></ul></div></div><span id="sb-1" class="skip-block-to"></span>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+<!-- START OF FOOTER -->
+    
+	    <div id="page-footer" class="clearfix">
+		        <p class="helplink"></p>
+        <div class="homelink"><a href="http://moodle2.berea.edu/course/view.php?id=2699">SP14CSC226201312-20171</a></div>    </div>
+    <div class="clearfix"></div>
+
+<script type="text/javascript" src="http://moodle2.berea.edu/theme/javascript.php/moodlebook/1384888084/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","viewallcourses":"View all courses","cancel":"Cancel","yes":"Yes"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions20977 = [{"id":"expandable_branch_1","key":"45909","type":30},{"id":"expandable_branch_2","key":"46658","type":30},{"id":"expandable_branch_3","key":"46659","type":30},{"id":"expandable_branch_4","key":"46660","type":30},{"id":"expandable_branch_5","key":"mycourses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.on('domready', function() { M.util.init_maximised_embed(Y, "resourceobject"); });
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('http://moodle2.berea.edu/mod/url/view.php?id=102671&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('http://moodle2.berea.edu/mod/url/view.php?id=102687&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('http://moodle2.berea.edu/mod/url/view.php?id=102673&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_4(e) { e.halt(); window.open('http://moodle2.berea.edu/mod/url/view.php?id=102672&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_5(e) { e.halt(); window.open('http://moodle2.berea.edu/mod/url/view.php?id=102688&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"20977","instance":"20977","candock":false,"courselimit":"20","expansionlimit":0});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"20978","instance":"20978","candock":false});
+});
+M.util.help_popups.setup(Y);
+M.util.init_block_hider(Y, {"id":"inst20977","title":"Navigation","preference":"block20977hidden","tooltipVisible":"Hide Navigation block","tooltipHidden":"Show Navigation block"});
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link52f1e759383381", null);
+Y.on('click', legacy_activity_onclick_handler_2, "#action_link52f1e759383382", null);
+Y.on('click', legacy_activity_onclick_handler_3, "#action_link52f1e759383383", null);
+Y.on('click', legacy_activity_onclick_handler_4, "#action_link52f1e759383384", null);
+Y.on('click', legacy_activity_onclick_handler_5, "#action_link52f1e759383385", null);
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link52f1e759383386", null);
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link52f1e759383387", null);
+Y.on('click', legacy_activity_onclick_handler_2, "#action_link52f1e759383388", null);
+Y.on('click', legacy_activity_onclick_handler_3, "#action_link52f1e759383389", null);
+Y.on('click', legacy_activity_onclick_handler_4, "#action_link52f1e7593833810", null);
+Y.on('click', legacy_activity_onclick_handler_5, "#action_link52f1e7593833811", null);
+
+});
+//]]>
+</script>
+
+<div id="back-to-top">
+	<a class="arrow" href="#">▲</a>
+	<a class="text" href="#">Back to Top</a>
+</div>
+
+</body>
+</html>

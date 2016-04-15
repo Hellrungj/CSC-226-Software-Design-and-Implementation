@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- saved from url=(0140)https://interactivepython.rpxnow.com/openid/embed?token_url=http://interactivepython.org/runestone/default/user/login&language_preference=en -->
+<html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sign in - Powered by Janrain</title>
+    <meta charset="UTF-8">
+
+    <script src="rpx.js" type="text/javascript"></script>
+    <link href="a7d4c6ad7d3e8300b945386888e4efc4.css" media="screen" rel="stylesheet" type="text/css">
+
+    
+    <style type="text/css">
+    /* sprite */
+    ul.providers li {
+        background: url(https://docj27ko03fnu.cloudfront.net/images/sprites/40/AA/D8/E2/4E39EE987E8700827F0D6236AE7AAE37.png) no-repeat;
+    }
+    li#facebook {
+        background-position: 0px 0px;
+    }
+    li#facebook:hover {
+        background-position: -150px 0px;
+    }
+    li#facebook.press {
+        background-position: -300px 0px;
+    }
+    li#twitter {
+        background-position: 0px -50px;
+    }
+    li#twitter:hover {
+        background-position: -150px -50px;
+    }
+    li#twitter.press {
+        background-position: -300px -50px;
+    }
+    li#openid {
+        background-position: 0px -100px;
+    }
+    li#openid:hover {
+        background-position: -150px -100px;
+    }
+    li#openid.press {
+        background-position: -300px -100px;
+    }
+    li#google {
+        background-position: 0px -150px;
+    }
+    li#google:hover {
+        background-position: -150px -150px;
+    }
+    li#google.press {
+        background-position: -300px -150px;
+    }
+    </style>
+
+    <!--[if IE 6]>
+    <style type="text/css">
+    ul.providers li {
+        background: url(https://docj27ko03fnu.cloudfront.net/images/sprites/40/AA/D8/E2/4E39EE987E8700827F0D6236AE7AAE37.gif) no-repeat;
+    }
+    </style>
+    <![endif]-->
+    
+  <style type="text/css"></style></head>
+
+  <body>
+    <div id="widget" class="widget">
+      <div id="view"><div><div style="display: block;"><h1>Sign in using your account with</h1><div id="pages" style="top: 31px;"><div class="page"><ul class="providers"><li id="facebook" class="on"><span style="text-indent: -9999px; display: inline-block;">facebook</span></li><li id="openid" class="on"><span style="text-indent: -9999px; display: inline-block;">openid</span></li></ul><ul class="providers col2"><li id="twitter" class="on"><span style="text-indent: -9999px; display: inline-block;">twitter</span></li><li id="google" class="on"><span style="text-indent: -9999px; display: inline-block;">google</span></li></ul></div></div></div></div></div>
+
+      <div id="left" class="" style="top: 36px; display: none;"></div>
+      <div id="right" class="enabled" style="top: 36px; display: none;"></div>
+
+      <div id="footer">
+        <span class="powered_by" id="powered_by">Powered by <a href="http://www.janrain.com/products/engage/engage-introduction?utm_source=interactivepython.rpxnow.com&utm_medium=partner&utm_campaign=attribution" target="_blank">Janrain</a></span>
+        <div id="paging" class="paging" style="display: none;"><span>page</span><span id="one" class="active"></span><span id="two"></span></div>
+        <img class="loading" id="loading" style="visibility: hidden;" src="9a8269421303631316be4ab5e34870e1.gif">
+      <a class="back" id="wa_back" style="display: none;"><span>use another account</span></a></div>
+    </div>
+
+    <script type="text/javascript">
+window.poweredByUrl = ('http://www.janrain.com/products/engage/engage-introduction?utm_source=' +
+                       encodeURIComponent("interactivepython.rpxnow.com") +
+                       '&utm_medium=partner&utm_campaign=attribution');
+    </script>
+
+    <script src="b9b75c9aef9875f202ca2e2ed5ab54ea.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+RPXNOW.init({appId: "hjiligkefdedpjekplhj",
+             xdReceiver: "/xdcomm",
+             rpxUrlPrefix: "https://rpxnow.com/"});
+
+RPXNOW.loadAndRun(['Auth'], function () {
+  var button, providers, i, viewElem, last, provider, box, widgetElem, pname, footerElem, defaultProvider, useGoogleBuzz, uname;
+
+  providers = ["facebook","twitter","openid","google"];
+  for (i = 0; i < providers.length; i++) {
+    button = providerButtons[providers[i]];
+    provPages.addButton(button);
+  }
+  var facebook = RPXNOW.Auth.providers['facebook'];
+
+  useGoogleBuzz = false;
+
+  viewElem = document.getElementById('view');
+  viewElem.appendChild(deckPanel.getElement());
+  deckPanel.showIndex(0);
+
+  defaultProvider = queryArgs.default_provider;
+  last = RPXNOW.Auth.CookieUserStateStore.getLastSuccessful();
+  if ((last.providerName || defaultProvider) && !testing && !showGrid) {
+      pname = (last.providerName || defaultProvider);
+      pname = pname === 'liveid' ? 'live_id' : pname;
+      provider = RPXNOW.Auth.providers[pname];
+      if (provider) {
+          if (provider.immediate && !noImmediate) {
+              if (pname != 'google' || !useGoogleBuzz) {
+                  provider.immediate(token_url);
+              }
+          }
+
+          box = providerBoxes[pname];
+          if (last.providerName) {
+              uname = last.userName;
+              if (uname) {
+                  uname = decodeURIComponent(uname);
+              }
+              box.showWelcome(last.userInput, uname);
+          } else {
+              box.show();
+          }
+          deckPanel.showWidget(box);
+      } else {
+          deckPanel.showIndex(0);
+      }
+  } else {
+    deckPanel.showIndex(0);
+  }
+
+
+  footerElem = document.getElementById('footer');
+  footerElem.appendChild(useAnotherAccount.getElement());
+});
+      </script><script src="base_url" type="text/javascript"></script>
+
+  
+
+</body></html>
