@@ -15,7 +15,7 @@ _By John Hellrung and Ivan Santos_
   
 **Homework:**
 
-_Made Dr. Mario Nakazawa and Dr. Jan Perice_
+_Made by Dr. Mario Nakazawa and Dr. Jan Perice_
 * P2: By John Hellrung and Demetris Coleman
 * P3: By John Hellrung and William Mosier  
 * P4: BY John Hellrung and Vincent Tembo
@@ -26,7 +26,7 @@ _Made Dr. Mario Nakazawa and Dr. Jan Perice_
     
 **Assignments:**
 
-_Made Dr. Mario Nakazawa and Dr. Jan Perice_ 
+_Made by Dr. Mario Nakazawa and Dr. Jan Perice_ 
 * A0: By John Hellrung
 * A1: By John Hellrung
 * A3: By John Hellrung 
@@ -40,7 +40,7 @@ _Made Dr. Mario Nakazawa and Dr. Jan Perice_
     
 **Labs:**
 
-_Made Dr. Mario Nakazawa and Dr. Jan Perice_
+_Made by Dr. Mario Nakazawa and Dr. Jan Perice_
 * L1: By John Hellrung and Vincent Tembo
 * L2: By John Hellrung and Xhafer Rama
 * L3: By John Hellrung and Kenan Sheltonk
