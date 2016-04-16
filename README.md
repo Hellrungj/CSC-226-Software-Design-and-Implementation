@@ -9,8 +9,9 @@ _Made by Dr. Mario Nakazawa and Dr. Jan Perice_
 * Exam 1: By John Hellrung 
 * Exam 2: By John Hellrung
   
-**Final Project: 
-By John Hellrung and Ivan Santos**
+**Final Project:**
+
+_By John Hellrung and Ivan Santos_
   
 **Homework:**
 
