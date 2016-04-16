@@ -2,14 +2,19 @@
 This pository is a collection of me and team member's work in Software Design and Implementation or CSC 226 course at Berea College.
 
 ##Projects:
-**Exams made by Dr. Mario Nakazawa and Dr. Jan Perice**
+
+**Exams:**
+
+_Made by Dr. Mario Nakazawa and Dr. Jan Perice_
 * Exam 1: By John Hellrung 
 * Exam 2: By John Hellrung
   
 **Final Project: 
 By John Hellrung and Ivan Santos**
   
-**Homework made Dr. Mario Nakazawa and Dr. Jan Perice**
+**Homework:**
+
+_Made Dr. Mario Nakazawa and Dr. Jan Perice_
 * P2: By John Hellrung and Demetris Coleman
 * P3: By John Hellrung and William Mosier  
 * P4: BY John Hellrung and Vincent Tembo
@@ -19,6 +24,8 @@ By John Hellrung and Ivan Santos**
 * P10 BY John Hellrung and Kenan Shelton
     
 **Assignments:**
+
+_Made Dr. Mario Nakazawa and Dr. Jan Perice_ 
 * A0: By John Hellrung
 * A1: By John Hellrung
 * A3: By John Hellrung 
@@ -30,7 +37,9 @@ By John Hellrung and Ivan Santos**
 * A14: By John Hellrung and Eric Rhodes
 * A15: By John and Ross Miller 
     
-**Labs made by Dr. Mario Nakazawa and Dr. Jan Perice**
+**Labs:**
+
+_Made Dr. Mario Nakazawa and Dr. Jan Perice_
 * L1: By John Hellrung and Vincent Tembo
 * L2: By John Hellrung and Xhafer Rama
 * L3: By John Hellrung and Kenan Sheltonk
